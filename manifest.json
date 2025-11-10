@@ -1,0 +1,228 @@
+{
+  "source_base_path": "C:/Users/chucy/OneDrive - Leeds Beckett University/Documents/Visual Studio 2022/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppCanvas",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppCanvas.yml\" sourcestartlinenumber=\"1\"><code>AppCanvas</code> class implements the <code>ICanvas</code> interface. <br>\nIt provides several methods and properties to manage different operation in the drawing canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppCircle",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppCircle.yml\" sourcestartlinenumber=\"1\"><code>AppCircle</code> class implements the <code>CommandOneParameter</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a circle,\nand validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppDrawTo",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppDrawTo.yml\" sourcestartlinenumber=\"1\"><code>AppDrawTo</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a line,\nand validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppMoveTo",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppMoveTo.yml\" sourcestartlinenumber=\"1\"><code>AppMoveTo</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to move the drawing cursor,\nand validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppPenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppPenColour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppPenColour",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppPenColour.yml\" sourcestartlinenumber=\"1\"><code>AppPenColour</code> class implements the <code>CommandThreeParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to change the pen color,\nand validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppRect",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppRect.yml\" sourcestartlinenumber=\"1\"><code>AppRect</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a rectangle,\nand validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppTri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppTri.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppTri",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppTri.yml\" sourcestartlinenumber=\"1\"><code>AppTri</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a triangle,\nand validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppWrite",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppWrite.yml\" sourcestartlinenumber=\"1\"><code>AppWrite</code> class implements the <code>CanvasCommand</code> abstract class. <br>\nOverrides <code>Execute()</code> to evaluate its parameters,\nand draw a string on the canvas. <br>\nOverrides <code>CheckParameters()</code> to validates the parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.ThePicassoApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.ThePicassoApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.ThePicassoApp",
+      "Summary": "<p sourcefile=\"boose/BOOSE_Project.ThePicassoApp.yml\" sourcestartlinenumber=\"1\"><code>thePicassoApp</code> class is a drawing app that does several basic operations. <br>\nSuch as: drawing shapes with mouse cursor or typed in commands,\nchanging pen color and stroke width, and clearing the canvas. <br>\nAdditionally, it supports syntax highlighting in the text command input field.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Project.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "boose/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/toc.html"
+        },
+        ".json": {
+          "relative_path": "boose/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
