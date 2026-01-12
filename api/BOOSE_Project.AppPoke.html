@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppWrite | BOOSE Picasso </title>
+      <title>Class AppPoke | BOOSE Picasso </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppWrite | BOOSE Picasso ">
+      <meta name="title" content="Class AppPoke | BOOSE Picasso ">
       
-      <meta name="description" content="AppWrite class implements the CanvasCommand abstract class.  Overrides Execute() to evaluate its parameters, and draw a string on the canvas.  Overrides CheckParameters() to validates the parameters.">
+      <meta name="description" content="AppPoke class extends the AppArray command in BOOSE.  It handles the POKE command to assign a value to an array element.  Uses the base class methods to process parameters for POKE operation.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/new/main/apiSpec/new?filename=BOOSE_Project_AppWrite.md&amp;value=---%0Auid%3A%20BOOSE_Project.AppWrite%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/new/main/apiSpec/new?filename=BOOSE_Project_AppPoke.md&amp;value=---%0Auid%3A%20BOOSE_Project.AppPoke%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE_Project.AppWrite">
+        <article data-uid="BOOSE_Project.AppPoke">
 
 
 
-  <h1 id="BOOSE_Project_AppWrite" data-uid="BOOSE_Project.AppWrite" class="text-break">
-Class AppWrite  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppWrite.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Project_AppPoke" data-uid="BOOSE_Project.AppPoke" class="text-break">
+Class AppPoke  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppPoke.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,15 +97,14 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
   <dl><dt>Assembly</dt><dd>BOOSE_Project.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p><code>AppWrite</code> class implements the <code>CanvasCommand</code> abstract class. <br>
-Overrides <code>Execute()</code> to evaluate its parameters,
-and draw a string on the canvas. <br>
-Overrides <code>CheckParameters()</code> to validates the parameters.</p>
+  <div class="markdown summary"><p><code>AppPoke</code> class extends the <code>AppArray</code> command in BOOSE. <br>
+It handles the POKE command to assign a value to an array element. <br>
+Uses the base class methods to process parameters for POKE operation.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppWrite : CanvasCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppPoke : AppArray, ICommand</code></pre>
   </div>
 
 
@@ -116,8 +115,10 @@ Overrides <code>CheckParameters()</code> to validates the parameters.</p>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><span class="xref">Command</span></div>
-      <div><span class="xref">CanvasCommand</span></div>
-      <div><span class="xref">AppWrite</span></div>
+      <div><span class="xref">Evaluation</span></div>
+      <div><span class="xref">Array</span></div>
+      <div><a class="xref" href="BOOSE_Project.AppArray.html">AppArray</a></div>
+      <div><span class="xref">AppPoke</span></div>
     </dd>
   </dl>
 
@@ -133,16 +134,106 @@ Overrides <code>CheckParameters()</code> to validates the parameters.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <a class="xref" href="BOOSE_Project.AppArray.html#BOOSE_Project_AppArray_CheckParameters_System_String___">AppArray.CheckParameters(string[])</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <a class="xref" href="BOOSE_Project.AppArray.html#BOOSE_Project_AppArray_ProcessArrayParametersCompile_System_Boolean_">AppArray.ProcessArrayParametersCompile(bool)</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <span class="xref">Array.PEEK</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <span class="xref">Array.POKE</span>
+    </div>
+    <div>
+      <span class="xref">Array.type</span>
+    </div>
+    <div>
+      <span class="xref">Array.rows</span>
+    </div>
+    <div>
+      <span class="xref">Array.columns</span>
+    </div>
+    <div>
+      <span class="xref">Array.valueInt</span>
+    </div>
+    <div>
+      <span class="xref">Array.valueReal</span>
+    </div>
+    <div>
+      <span class="xref">Array.intArray</span>
+    </div>
+    <div>
+      <span class="xref">Array.realArray</span>
+    </div>
+    <div>
+      <span class="xref">Array.pokeValue</span>
+    </div>
+    <div>
+      <span class="xref">Array.peekVar</span>
+    </div>
+    <div>
+      <span class="xref">Array.rowS</span>
+    </div>
+    <div>
+      <span class="xref">Array.columnS</span>
+    </div>
+    <div>
+      <span class="xref">Array.row</span>
+    </div>
+    <div>
+      <span class="xref">Array.column</span>
+    </div>
+    <div>
+      <span class="xref">Array.ArrayRestrictions()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Array.ProcessArrayParametersExecute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Array.SetIntArray(int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Array.SetRealArray(double, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Array.GetIntArray(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Array.GetRealArray(int, int)</a>
+    </div>
+    <div>
+      <span class="xref">Array.Rows</span>
+    </div>
+    <div>
+      <span class="xref">Array.Columns</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
     </div>
     <div>
       <span class="xref">Command.IsDouble</span>
@@ -158,12 +249,6 @@ Overrides <code>CheckParameters()</code> to validates the parameters.</p>
     </div>
     <div>
       <span class="xref">Command.paramsint</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -211,102 +296,26 @@ Overrides <code>CheckParameters()</code> to validates the parameters.</p>
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="BOOSE_Project_AppWrite__ctor_" data-uid="BOOSE_Project.AppWrite.#ctor*"></a>
-
-  <h3 id="BOOSE_Project_AppWrite__ctor" data-uid="BOOSE_Project.AppWrite.#ctor">
-  AppWrite()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppWrite.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p><code>AppWrite()</code> blank contrsuctor for factory instantiation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppWrite()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="BOOSE_Project_AppWrite__ctor_" data-uid="BOOSE_Project.AppWrite.#ctor*"></a>
-
-  <h3 id="BOOSE_Project_AppWrite__ctor_BOOSE_Canvas_System_String_" data-uid="BOOSE_Project.AppWrite.#ctor(BOOSE.Canvas,System.String)">
-  AppWrite(Canvas, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppWrite.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p><code>AppWrite</code> class constructor sets the <code>expression</code> to evaluate.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppWrite(Canvas canvas, string expression)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>canvas</code> <span class="xref">Canvas</span></dt>
-    <dd><p>This Canvas command is affecting</p>
-</dd>
-    <dt><code>expression</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Parameter to be evaluated, and print on the canvas</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="BOOSE_Project_AppWrite_CheckParameters_" data-uid="BOOSE_Project.AppWrite.CheckParameters*"></a>
+  <a id="BOOSE_Project_AppPoke_Compile_" data-uid="BOOSE_Project.AppPoke.Compile*"></a>
 
-  <h3 id="BOOSE_Project_AppWrite_CheckParameters_System_String___" data-uid="BOOSE_Project.AppWrite.CheckParameters(System.String[])">
-  CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppWrite.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Project_AppPoke_Compile" data-uid="BOOSE_Project.AppPoke.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppPoke.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Check the Write command parameters with a set of cases: <br></p>
-<ul>
-<li>ensures at least one parameter is provided <br></li>
-<li>ensures the parameter is not null or empty</li>
-</ul>
+  <div class="markdown level1 summary"><p><code>Compile()</code> overrides the base class method. <br>
+it processes the parameters for the POKE operation using the method from <code>AppArray</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameter)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd><p>stores the parameters</p>
-</dd>
-  </dl>
 
 
 
@@ -316,24 +325,18 @@ Overrides <code>CheckParameters()</code> to validates the parameters.</p>
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CommandException</span></dt>
-    <dd><p>catches all the exception cases</p>
-</dd>
-  </dl>
 
 
 
-  <a id="BOOSE_Project_AppWrite_Execute_" data-uid="BOOSE_Project.AppWrite.Execute*"></a>
+  <a id="BOOSE_Project_AppPoke_Execute_" data-uid="BOOSE_Project.AppPoke.Execute*"></a>
 
-  <h3 id="BOOSE_Project_AppWrite_Execute" data-uid="BOOSE_Project.AppWrite.Execute">
+  <h3 id="BOOSE_Project_AppPoke_Execute" data-uid="BOOSE_Project.AppPoke.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppWrite.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppPoke.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><code>Execute()</code> executes the <code>WriteText()</code> command. <br>
-Write the evaluated expression to the canvas and the console.</p>
+  <div class="markdown level1 summary"><p><code>Execute()</code> overrides the base class method. <br>
+it executes the POKE operation using the BOOSE Array method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -353,11 +356,48 @@ Write the evaluated expression to the canvas and the console.</p>
 
 
 
+  <a id="BOOSE_Project_AppPoke_Set_" data-uid="BOOSE_Project.AppPoke.Set*"></a>
+
+  <h3 id="BOOSE_Project_AppPoke_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE_Project.AppPoke.Set(BOOSE.StoredProgram,System.String)">
+  Set(StoredProgram, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppPoke.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><code>Set()</code> method overrides the base class method. <br>
+it sets the program context and parameters for the POKE command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Set(StoredProgram Program, string Params)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Program</code> <span class="xref">StoredProgram</span></dt>
+    <dd><p>the program to pass to the stored program</p>
+</dd>
+    <dt><code>Params</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the parameters of the Poke command</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppWrite.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-CYZeusX/blob/main/BOOSE Project/AppPoke.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

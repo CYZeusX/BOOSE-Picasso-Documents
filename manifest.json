@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/chucy/OneDrive - Leeds Beckett University/Documents/Visual Studio 2022/source/documentation",
+  "source_base_path": "C:/Users/chucy/OneDrive - Leeds Beckett University/Documents/Visual Studio 2022/source/repos/ase-boose-assignment-CYZeusX/BOOSE Project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,136 +12,360 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppCanvas.yml",
+      "source_relative_path": "api/ArrayTest.ArrayTest.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppCanvas.html"
+          "relative_path": "api/ArrayTest.ArrayTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArrayTest.ArrayTest",
+      "Summary": "<p sourcefile=\"api/ArrayTest.ArrayTest.yml\" sourcestartlinenumber=\"1\"><code>ArrayTest</code> class is the Unit Test for the Boose functions of <code>Array()</code>, <code>Peek()</code>, and <code>Poke()</code>. <br>\nIt tests several cases: single function, multi-line function, and exception throwing. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArrayTest.IntTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArrayTest.IntTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArrayTest.IntTest",
+      "Summary": "<p sourcefile=\"api/ArrayTest.IntTest.yml\" sourcestartlinenumber=\"1\"><code>IntTest</code> class is the Unit Test for the Boose <code>Int()</code> function. <br>\nIt tests several cases: single function, multi-line function, and exception throwing. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArrayTest.MoveToTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArrayTest.MoveToTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArrayTest.MoveToTest",
+      "Summary": "<p sourcefile=\"api/ArrayTest.MoveToTest.yml\" sourcestartlinenumber=\"1\"><code>MoveToTest</code> class is the Unit Test for the Boose <code>MoveTo()</code> function. <br>\nIt tests several cases: single function, multi-line function, and exception throwing. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArrayTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArrayTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArrayTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppArray",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppArray.yml\" sourcestartlinenumber=\"1\"><code>AppArray</code> class extends the <code>AppArray</code> command in BOOSE. <br>\nIt provides parameters checking for the array command. <br>\nWhen there are actions to the array, <br>\nit processes the array by recognising whether it is to get or set the value of an array item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppCanvas.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppCanvas",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppCanvas.yml\" sourcestartlinenumber=\"1\"><code>AppCanvas</code> class implements the <code>ICanvas</code> interface. <br>\nIt provides several methods and properties to manage different operation in the drawing canvas.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppCanvas.yml\" sourcestartlinenumber=\"1\"><code>AppCanvas</code> class implements the <code>ICanvas</code> interface. <br>\nIt provides several methods and properties to manage different operation in the drawing canvas.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppCircle.yml",
+      "source_relative_path": "api/BOOSE_Project.AppCircle.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppCircle.html"
+          "relative_path": "api/BOOSE_Project.AppCircle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppCircle",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppCircle.yml\" sourcestartlinenumber=\"1\"><code>AppCircle</code> class implements the <code>CommandOneParameter</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a circle,\nand validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppCircle.yml\" sourcestartlinenumber=\"1\"><code>AppCircle</code> class implements the <code>CommandOneParameter</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a circle,\nand validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppDrawTo.yml",
+      "source_relative_path": "api/BOOSE_Project.AppDrawTo.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppDrawTo.html"
+          "relative_path": "api/BOOSE_Project.AppDrawTo.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppDrawTo",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppDrawTo.yml\" sourcestartlinenumber=\"1\"><code>AppDrawTo</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a line,\nand validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppDrawTo.yml\" sourcestartlinenumber=\"1\"><code>AppDrawTo</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a line,\nand validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppMoveTo.yml",
+      "source_relative_path": "api/BOOSE_Project.AppElse.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppMoveTo.html"
+          "relative_path": "api/BOOSE_Project.AppElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppElse",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppElse.yml\" sourcestartlinenumber=\"1\"><code>AppElse</code> class overwrites the <code>Else</code> command in BOOSE. <br>\nserves for if-else conditional statements. <br></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppEnd",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppEnd.yml\" sourcestartlinenumber=\"1\"><code>AppEnd</code> class extends the <code>End</code> command in BOOSE. <br>\ndetects the corresponding compound command to end. <br>\nSupports <code>If</code>, <code>While</code>, <code>For</code>, and <code>Method</code> commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppFor",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppFor.yml\" sourcestartlinenumber=\"1\"><code>AppFor</code> class extends the <code>For</code> command in BOOSE. <br>\nOverrides the base class <code>ConditionalCommand</code>. <br></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppIf",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppIf.yml\" sourcestartlinenumber=\"1\"><code>AppIf</code> class extends the <code>If</code> command in BOOSE.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppInt",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppInt.yml\" sourcestartlinenumber=\"1\"><code>AppInt</code> class extends the <code>Evaluation</code> command in BOOSE. <br>\nit handles integer variable declaration and checks for valid integer assignment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppMethod",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppMethod.yml\" sourcestartlinenumber=\"1\"><code>AppMethod</code> class extends the <code>Method</code> in BOOSE. <br>\nit uses the original methods from the base class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppMoveTo.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppMoveTo",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppMoveTo.yml\" sourcestartlinenumber=\"1\"><code>AppMoveTo</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to move the drawing cursor,\nand validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppMoveTo.yml\" sourcestartlinenumber=\"1\"><code>AppMoveTo</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to move the drawing cursor,\nand validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppPenColour.yml",
+      "source_relative_path": "api/BOOSE_Project.AppParser.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppPenColour.html"
+          "relative_path": "api/BOOSE_Project.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppParser",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppParser.yml\" sourcestartlinenumber=\"1\"><code>AppParser</code> class extends the <code>Parser</code> class in BOOSE. <br>\noverrides the <code>ParseCommand()</code> method to parse user input.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppPeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppPeek",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppPeek.yml\" sourcestartlinenumber=\"1\"><code>AppPeek</code> class extends the <code>AppArray</code> command in BOOSE. <br>\nIt handles the PEEK command to assign a value to an array element. <br>\nUses the base class methods to process parameters for PEEK operation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppPenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppPenColour.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppPenColour",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppPenColour.yml\" sourcestartlinenumber=\"1\"><code>AppPenColour</code> class implements the <code>CommandThreeParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to change the pen color,\nand validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppPenColour.yml\" sourcestartlinenumber=\"1\"><code>AppPenColour</code> class implements the <code>CommandThreeParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to change the pen color,\nand validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppRect.yml",
+      "source_relative_path": "api/BOOSE_Project.AppPoke.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppRect.html"
+          "relative_path": "api/BOOSE_Project.AppPoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppPoke",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppPoke.yml\" sourcestartlinenumber=\"1\"><code>AppPoke</code> class extends the <code>AppArray</code> command in BOOSE. <br>\nIt handles the POKE command to assign a value to an array element. <br>\nUses the base class methods to process parameters for POKE operation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppReal",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppReal.yml\" sourcestartlinenumber=\"1\"><code>AppReal</code> class extends the <code>Evaluation</code> command in BOOSE. <br>\nit handles Real variable declaration and checks for valid Real assignment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppRect.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppRect",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppRect.yml\" sourcestartlinenumber=\"1\"><code>AppRect</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a rectangle,\nand validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppRect.yml\" sourcestartlinenumber=\"1\"><code>AppRect</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a rectangle,\nand validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppTri.yml",
+      "source_relative_path": "api/BOOSE_Project.AppTri.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppTri.html"
+          "relative_path": "api/BOOSE_Project.AppTri.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppTri",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppTri.yml\" sourcestartlinenumber=\"1\"><code>AppTri</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a triangle,\nand validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppTri.yml\" sourcestartlinenumber=\"1\"><code>AppTri</code> class implements the <code>CommandTwoParameters</code> abstract class. <br>\nOverrides the <code>Execute()</code> and <code>CheckParameters()</code> methods to draw a triangle,\nand validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.AppWrite.yml",
+      "source_relative_path": "api/BOOSE_Project.AppWhile.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.AppWrite.html"
+          "relative_path": "api/BOOSE_Project.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Project.AppWhile",
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppWhile.yml\" sourcestartlinenumber=\"1\"><code>AppWhile</code> class extends the <code>While</code> command in BOOSE.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Project.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Project.AppWrite.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.AppWrite",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.AppWrite.yml\" sourcestartlinenumber=\"1\"><code>AppWrite</code> class implements the <code>CanvasCommand</code> abstract class. <br>\nOverrides <code>Execute()</code> to evaluate its parameters,\nand draw a string on the canvas. <br>\nOverrides <code>CheckParameters()</code> to validates the parameters.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.AppWrite.yml\" sourcestartlinenumber=\"1\"><code>AppWrite</code> class implements the <code>CanvasCommand</code> abstract class. <br>\nOverrides <code>Execute()</code> to evaluate its parameters,\nand draw a string on the canvas. <br>\nOverrides <code>CheckParameters()</code> to validates the parameters.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.ThePicassoApp.yml",
+      "source_relative_path": "api/BOOSE_Project.ThePicassoApp.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.ThePicassoApp.html"
+          "relative_path": "api/BOOSE_Project.ThePicassoApp.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Project.ThePicassoApp",
-      "Summary": "<p sourcefile=\"boose/BOOSE_Project.ThePicassoApp.yml\" sourcestartlinenumber=\"1\"><code>thePicassoApp</code> class is a drawing app that does several basic operations. <br>\nSuch as: drawing shapes with mouse cursor or typed in commands,\nchanging pen color and stroke width, and clearing the canvas. <br>\nAdditionally, it supports syntax highlighting in the text command input field.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Project.ThePicassoApp.yml\" sourcestartlinenumber=\"1\"><code>thePicassoApp</code> class is a drawing app that does several basic operations. <br>\nSuch as: drawing shapes with mouse cursor or typed in commands,\nchanging pen color and stroke width, and clearing the canvas. <br>\nAdditionally, it supports syntax highlighting in the text command input field.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE_Project.yml",
+      "source_relative_path": "api/BOOSE_Project.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE_Project.html"
+          "relative_path": "api/BOOSE_Project.html"
         }
       },
       "version": "",
@@ -151,47 +375,210 @@
       "Summary": null
     },
     {
-      "type": "Toc",
-      "source_relative_path": "boose/toc.yml",
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawToTest.DrawToTest.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/toc.html"
+          "relative_path": "api/DrawToTest.DrawToTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DrawToTest.DrawToTest",
+      "Summary": "<p sourcefile=\"api/DrawToTest.DrawToTest.yml\" sourcestartlinenumber=\"1\"><code>DrawToTest</code> class is the Unit Test for the Boose <code>DrawTo()</code> function. <br>\nIt tests several cases: single function, multi-line function, and exception throwing. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawToTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawToTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DrawToTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseTest.ElseTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseTest.ElseTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ElseTest.ElseTest",
+      "Summary": "<p sourcefile=\"api/ElseTest.ElseTest.yml\" sourcestartlinenumber=\"1\"><code>ElseTest</code> class is the Unit Test Else the Boose <code>Else()</code> and the <code>End()</code> function. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ElseTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ForTest.ForTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ForTest.ForTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ForTest.ForTest",
+      "Summary": "<p sourcefile=\"api/ForTest.ForTest.yml\" sourcestartlinenumber=\"1\"><code>ForTest</code> class is the Unit Test for the Boose <code>For()</code> and the <code>End()</code> function. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ForTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ForTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ForTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IfTest.IfTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IfTest.IfTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IfTest.IfTest",
+      "Summary": "<p sourcefile=\"api/IfTest.IfTest.yml\" sourcestartlinenumber=\"1\"><code>IfTest</code> class is the Unit Test if the Boose <code>If()</code> and the <code>End()</code> function. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IfTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IfTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IfTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MultilineProgram.MultilineProgramTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MultilineProgram.MultilineProgramTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MultilineProgram.MultilineProgramTest",
+      "Summary": "<p sourcefile=\"api/MultilineProgram.MultilineProgramTest.yml\" sourcestartlinenumber=\"1\"><code>MultilineProgramTest</code> class is the Unit Test for testing multiple operation at once, <br>\nand see if the cursor is located at expected coordination. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MultilineProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MultilineProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MultilineProgram",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PeekTest.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PeekTest.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PeekTest.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PeekTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PeekTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PeekTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WhileTest.WhileTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WhileTest.WhileTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WhileTest.WhileTest",
+      "Summary": "<p sourcefile=\"api/WhileTest.WhileTest.yml\" sourcestartlinenumber=\"1\"><code>WhileTest</code> class is the Unit Test for the Boose <code>While()</code> and the <code>End()</code> function. <br>\nIt checks with parsing the processed input to stored program. <br>\nThen compares with the final destination the cursor is at.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WhileTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WhileTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WhileTest",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
         },
         ".json": {
-          "relative_path": "boose/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "docs/toc.json"
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
